@@ -1,0 +1,357 @@
+.container{
+    width: 1140px;
+}
+
+/* start of navbar */
+
+
+/* image */
+.logo a img {
+    max-width: 100%;
+    height: auto;
+    width: 175px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: inherit;
+    margin-left: 250px;
+}
+/* image */
+
+/* navbar */
+#nvbr{
+    background-color: blue;
+}
+.navbar {
+   justify-content: center;
+
+}
+.navbar-nav{
+    margin-left: 200px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: blue;
+    font-size: 16px;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: white !important;
+    box-shadow:  0 2px 6px 0 rgba(0,0,0,.2);;
+}
+/* navbar */
+
+/* button */
+.btn{
+    margin-right: 500px;
+}
+.fa-right-to-bracket{
+    background-color: #0e72cc;
+    color: white;
+    padding: 16px;
+    font-size: 13px;
+}
+.fa-right-to-bracket:hover{
+    background-color: #004079;
+    color: white;
+
+}
+.fa-user-plus{
+    background-color: #0e72cc;
+    color: white;
+    padding: 16px;
+    font-size: 13px;
+
+}
+.fa-user-plus:hover{
+    background-color: #004079;
+    color: white;
+}
+/* button */
+
+/* end of navbar */
+
+/* start of change */
+#change{
+    padding-top: 156px;
+}
+#change h1{
+    font-size: 45px;
+    line-height: 50px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    color: #0E72CC;
+    padding-top: 100px;
+    text-align: left;
+}
+#change p{
+    font-size: 22px;
+    line-height: 28px;
+    font-family: "Open Sans";
+    color: #0E72CC;
+    padding-top: 20px;
+    font-weight: 100;
+}
+#change .btnn{
+    padding: 10px 20px 10px;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: "Open Sans";
+}
+
+
+/* end of change */
+
+
+/* start of icon box  */
+
+#icon_box{
+    padding-top: 50px;
+}
+/* box3 */
+#icon_box .box3{
+    background-color: #0e72cc;
+    padding: 40px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 5px 10px 5px solid blue;
+    
+    
+    
+}
+
+
+#icon_box .box3:hover{
+    
+    box-shadow: 5px 10px 5px gray;
+}
+/* box3 */
+
+/* box2 */
+
+#icon_box .box2{
+    background-color: #61c4d8;
+    padding: 40px;
+    border-radius: 10px;
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 5px 10px 5px solid blue;
+}
+#icon_box .box2:hover{
+    
+    box-shadow: 5px 10px 5px gray;
+}
+
+/* box */
+
+/* box1 */
+#icon_box .box1{
+    background-color: #f9799a;
+    padding: 40px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 5px 10px 5px solid blue
+}
+#icon_box .box1:hover{
+    
+    box-shadow: 5px 10px 5px gray;
+}
+/* box1 */
+#icon_box h1{
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    font-family: "Open Sans";
+    margin-left: 50px;
+}
+
+#icon_box p{
+    font-size: 15px;
+    line-height: 28px;
+    color: white;
+    font-family: "Open Sans";
+}
+
+#icon_box .fa-solid{
+    float: left;
+    font-size: 25px;
+    color: white;
+}
+
+
+
+/* end of icon box  */
+
+/* start of Project */
+#project {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#project h1{ 
+    font-size: 24px;
+    line-height: 30px;
+    color: #171F3C;
+    font-family: "Open Sans";
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+#project h2{
+    font-size: 50px;
+    line-height: 46px;
+    color: #171F3C;
+    font-family: "Open Sans";
+    font-weight: bold;
+    
+}
+#project p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #171F3C;
+    font-family: "Open Sans";
+    
+    
+}
+#project .butn{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    line-height: 28px;
+    color: white;
+    font-family: "Open Sans";
+}
+#project .imge1{
+    width: 100%;
+    margin-left: -40px;
+}
+         
+    
+/* end of Project */
+
+/* start of support */
+
+#support{
+    background-color:#f5f7fa ;
+    padding: 70px 0;
+}
+#support h1{
+    font-family: "Open Sans";
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: lighter;
+    color: #07324F;
+}
+#support h2{
+    font-family: "Open Sans";
+    font-size: 47px;
+    line-height: 46px;
+    font-weight: bold;
+    color: #07324F;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#support p{
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: normal;
+    color: #07324F;
+}
+
+#support .butnn{
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    line-height: 28px;
+    color: white;
+    font-family: "Open Sans";
+}
+/* end of support */
+
+/* start of earning */
+#earning{
+    background-color:#fcfcfc ;
+    padding: 70px 0;
+}
+#earning h1{
+    font-family: "Open Sans";
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: lighter;
+    color: #07324F;
+}
+#earning h2{
+    font-family: "Open Sans";
+    font-size: 47px;
+    line-height: 46px;
+    font-weight: bold;
+    color: #07324F;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#earning p{
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: normal;
+    color: #07324F;
+}
+
+#earning .butnn1{
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    line-height: 28px;
+    color: white;
+    font-family: "Open Sans";
+}
+
+
+/* end of earning */
+
+/* start of Privilege */
+#Privilege{
+    background-color:#f5f7fa ;
+    padding: 70px 0;
+}
+#Privilege h1{
+    font-family: "Open Sans";
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: lighter;
+    color: #07324F;
+}
+#Privilege h2{
+    font-family: "Open Sans";
+    font-size: 47px;
+    line-height: 46px;
+    font-weight: bold;
+    color: #07324F;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#Privilege p{
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: normal;
+    color: #07324F;
+    
+}
+
+#Privilege .butnn2{
+    margin-top: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    line-height: 28px;
+    color: white;
+    font-family: "Open Sans";
+}
+#Privilege img, svg {
+    vertical-align: middle;
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 50px;
+}
+
+
+/* end of Privilege */
